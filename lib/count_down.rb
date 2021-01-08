@@ -10,7 +10,7 @@ while countdown_timer > 0 do
   break if countdown_timer < 1
   
   "#{countdown_timer}"
-  countdown_timer -=
+  countdown_timer -= 1
 end
 
 # Print "Happy New Year!"
