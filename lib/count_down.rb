@@ -9,7 +9,10 @@ while countdown_timer > 0 do
   # Break if countdown timer reaches 1
   break if countdown_timer < 1
   
-  "#{countdown_timer}"
+  # Print the timer
+  puts "#{countdown_timer}"
+  
+  # Subtract from timer
   countdown_timer -= 1
 end
 
